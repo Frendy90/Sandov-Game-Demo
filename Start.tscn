@@ -1,0 +1,3708 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://World/Game.gd" type="Script" id=2]
+[ext_resource path="res://Block/Block.gd" type="Script" id=3]
+[ext_resource path="res://Seed/Seed.gd" type="Script" id=4]
+[ext_resource path="res://Seed/Seed.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Block/Block.tscn" type="PackedScene" id=6]
+
+[node name="Game" type="Node"]
+script = ExtResource( 2 )
+Name = "Start"
+block_add = 100
+pos_Added = Vector2( 0, 3200 )
+pase_block_type = 0
+Caves_pos = 2880
+new_world = false
+player_pos_world = Vector2( 1088, 1504 )
+
+[node name="Tile" type="Node2D" parent="."]
+
+[node name="@Block@4707" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 0, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4708" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 32, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4709" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 64, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4710" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 96, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4711" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 128, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4712" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 160, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4713" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 192, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4714" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 224, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4715" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 256, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4716" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 288, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4717" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 320, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4718" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 352, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4719" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 384, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4720" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 416, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4721" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 448, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4722" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 480, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4723" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 512, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4724" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 544, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4725" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 576, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4726" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 608, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4727" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 640, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4728" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 672, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4729" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 704, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4730" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 736, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4731" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 768, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4732" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 800, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4733" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 832, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4734" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 864, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4735" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 896, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4736" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 928, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4737" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 960, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4738" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 992, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4739" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1024, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4740" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1056, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4741" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1088, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4742" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1120, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4743" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1152, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4744" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1184, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4745" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1216, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4746" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1248, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4747" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1280, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4748" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1312, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4749" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1344, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4750" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1376, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4751" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1408, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4752" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1440, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4753" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1472, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4754" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1504, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4755" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1536, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4756" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1568, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4757" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1600, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4758" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1632, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4759" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1664, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4760" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1696, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4761" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1728, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4762" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1760, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4763" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1792, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4764" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1824, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4765" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1856, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4766" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1888, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4767" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1920, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4768" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1952, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4769" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1984, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4770" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2016, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4771" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2048, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4772" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2080, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4773" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2112, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4774" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2144, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4775" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2176, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4776" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2208, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4777" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2240, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4778" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2272, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4779" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2304, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4780" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2336, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4781" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2368, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4782" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2400, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4783" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2432, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4784" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2464, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4785" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2496, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4786" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2528, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4787" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2560, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4788" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2592, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4789" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2624, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4790" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2656, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4791" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2688, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4792" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2720, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4793" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2752, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4794" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2784, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4795" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2816, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4796" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2848, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4797" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2880, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4798" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2912, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4799" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2944, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4800" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2976, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4801" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3008, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4802" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3040, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4803" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3072, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4804" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3104, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4805" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3136, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4806" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3168, 3040 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4807" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 0, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4808" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 32, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4809" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 64, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4810" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 96, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4811" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 128, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4812" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 160, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4813" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 192, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4814" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 224, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4815" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 256, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4816" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 288, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4817" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 320, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4818" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 352, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4819" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 384, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4820" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 416, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4821" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 448, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4822" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 480, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4823" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 512, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4824" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 544, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4825" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 576, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4826" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 608, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4827" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 640, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4828" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 672, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4829" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 704, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4830" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 736, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4831" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 768, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4832" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 800, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4833" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 832, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4834" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 864, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4835" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 896, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4836" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 928, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4837" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 960, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4838" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 992, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4839" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1024, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4840" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1056, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4841" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1088, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4842" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1120, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4843" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1152, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4844" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1184, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4845" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1216, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4846" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1248, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4847" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1280, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4848" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1312, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4849" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1344, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4850" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1376, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4851" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1408, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4852" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1440, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4853" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1472, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4854" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1504, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4855" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1536, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4856" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1568, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4857" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1600, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4858" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1632, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4859" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1664, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4860" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1696, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4861" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1728, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4862" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1760, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4863" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1792, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4864" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1824, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4865" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1856, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4866" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1888, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4867" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1920, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4868" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1952, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4869" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1984, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4870" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2016, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4871" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2048, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4872" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2080, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4873" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2112, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4874" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2144, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4875" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2176, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4876" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2208, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4877" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2240, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4878" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2272, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4879" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2304, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4880" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2336, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4881" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2368, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4882" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2400, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4883" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2432, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4884" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2464, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4885" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2496, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4886" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2528, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4887" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2560, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4888" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2592, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4889" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2624, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4890" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2656, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4891" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2688, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4892" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2720, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4893" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2752, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4894" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2784, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4895" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2816, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4896" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2848, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4897" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2880, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4898" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2912, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4899" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2944, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4900" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2976, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4901" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3008, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4902" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3040, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4903" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3072, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4904" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3104, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4905" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3136, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4906" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3168, 3072 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4907" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 0, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4908" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 32, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4909" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 64, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4910" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 96, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4911" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 128, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4912" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 160, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4913" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 192, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4914" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 224, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4915" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 256, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4916" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 288, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4917" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 320, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4918" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 352, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4919" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 384, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4920" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 416, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4921" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 448, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4922" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 480, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4923" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 512, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4924" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 544, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4925" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 576, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4926" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 608, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4927" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 640, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4928" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 672, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4929" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 704, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4930" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 736, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4931" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 768, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4932" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 800, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4933" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 832, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4934" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 864, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4935" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 896, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4936" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 928, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4937" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 960, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4938" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 992, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4939" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1024, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4940" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1056, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4941" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1088, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4942" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1120, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4943" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1152, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4944" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1184, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4945" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1216, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4946" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1248, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4947" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1280, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4948" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1312, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4949" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1344, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4950" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1376, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4951" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1408, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4952" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1440, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4953" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1472, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4954" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1504, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4955" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1536, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4956" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1568, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4957" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1600, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4958" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1632, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4959" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1664, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4960" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1696, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4961" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1728, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4962" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1760, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4963" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1792, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4964" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1824, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4965" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1856, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4966" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1888, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4967" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1920, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4968" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1952, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4969" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1984, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4970" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2016, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4971" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2048, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4972" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2080, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4973" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2112, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4974" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2144, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4975" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2176, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4976" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2208, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4977" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2240, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4978" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2272, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4979" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2304, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4980" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2336, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4981" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2368, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4982" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2400, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4983" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2432, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4984" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2464, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4985" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2496, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4986" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2528, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4987" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2560, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4988" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2592, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4989" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2624, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4990" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2656, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4991" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2688, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4992" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2720, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4993" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2752, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4994" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2784, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4995" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2816, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4996" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2848, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4997" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2880, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4998" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2912, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@4999" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2944, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5000" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2976, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5001" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3008, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5002" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3040, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5003" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3072, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5004" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3104, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5005" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3136, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5006" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3168, 3104 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5007" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 0, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5008" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 32, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5009" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 64, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5010" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 96, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5011" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 128, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5012" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 160, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5013" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 192, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5014" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 224, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5015" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 256, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5016" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 288, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5017" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 320, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5018" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 352, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5019" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 384, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5020" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 416, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5021" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 448, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5022" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 480, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5023" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 512, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5024" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 544, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5025" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 576, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5026" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 608, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5027" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 640, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5028" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 672, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5029" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 704, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5030" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 736, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5031" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 768, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5032" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 800, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5033" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 832, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5034" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 864, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5035" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 896, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5036" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 928, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5037" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 960, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5038" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 992, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5039" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1024, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5040" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1056, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5041" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1088, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5042" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1120, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5043" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1152, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5044" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1184, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5045" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1216, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5046" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1248, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5047" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1280, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5048" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1312, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5049" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1344, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5050" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1376, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5051" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1408, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5052" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1440, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5053" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1472, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5054" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1504, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5055" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1536, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5056" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1568, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5057" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1600, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5058" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1632, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5059" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1664, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5060" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1696, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5061" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1728, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5062" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1760, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5063" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1792, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5064" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1824, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5065" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1856, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5066" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1888, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5067" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1920, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5068" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1952, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5069" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1984, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5070" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2016, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5071" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2048, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5072" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2080, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5073" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2112, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5074" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2144, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5075" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2176, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5076" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2208, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5077" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2240, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5078" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2272, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5079" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2304, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5080" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2336, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5081" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2368, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5082" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2400, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5083" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2432, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5084" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2464, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5085" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2496, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5086" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2528, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5087" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2560, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5088" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2592, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5089" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2624, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5090" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2656, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5091" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2688, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5092" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2720, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5093" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2752, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5094" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2784, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5095" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2816, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5096" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2848, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5097" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2880, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5098" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2912, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5099" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2944, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5100" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2976, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5101" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3008, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5102" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3040, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5103" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3072, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5104" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3104, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5105" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3136, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5106" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3168, 3136 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5107" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 0, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5108" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 32, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5109" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 64, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5110" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 96, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5111" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 128, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5112" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 160, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5113" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 192, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5114" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 224, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5115" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 256, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5116" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 288, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5117" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 320, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5118" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 352, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5119" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 384, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5120" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 416, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5121" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 448, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5122" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 480, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5123" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 512, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5124" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 544, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5125" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 576, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5126" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 608, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5127" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 640, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5128" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 672, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5129" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 704, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5130" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 736, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5131" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 768, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5132" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 800, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5133" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 832, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5134" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 864, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5135" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 896, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5136" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 928, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5137" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 960, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5138" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 992, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5139" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1024, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5140" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1056, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5141" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1088, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5142" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1120, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5143" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1152, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5144" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1184, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5145" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1216, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5146" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1248, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5147" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1280, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5148" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1312, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5149" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1344, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5150" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1376, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5151" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1408, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5152" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1440, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5153" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1472, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5154" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1504, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5155" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1536, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5156" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1568, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5157" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1600, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5158" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1632, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5159" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1664, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5160" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1696, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5161" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1728, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5162" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1760, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5163" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1792, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5164" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1824, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5165" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1856, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5166" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1888, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5167" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1920, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5168" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1952, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5169" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1984, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5170" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2016, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5171" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2048, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5172" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2080, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5173" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2112, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5174" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2144, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5175" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2176, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5176" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2208, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5177" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2240, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5178" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2272, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5179" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2304, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5180" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2336, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5181" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2368, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5182" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2400, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5183" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2432, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5184" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2464, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5185" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2496, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5186" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2528, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5187" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2560, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5188" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2592, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5189" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2624, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5190" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2656, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5191" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2688, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5192" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2720, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5193" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2752, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5194" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2784, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5195" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2816, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5196" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2848, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5197" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2880, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5198" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2912, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5199" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2944, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5200" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 2976, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5201" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3008, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5202" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3040, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5203" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3072, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5204" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3104, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5205" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3136, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5206" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 3168, 3168 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@5216" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1088, 1536 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="Block" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1056, 1536 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@8" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 1120, 1536 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@8" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 992, 1536 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@9" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 960, 1536 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@10" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 896, 1536 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@11" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 928, 1536 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@12" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 800, 1536 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@13" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 800, 1536 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@14" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 832, 1536 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@15" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 864, 1536 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@16" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 864, 1536 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="@Block@17" type="StaticBody2D" parent="Tile" groups=["Block"] instance=ExtResource( 6 )]
+position = Vector2( 768, 1536 )
+collision_layer = 2
+script = ExtResource( 3 )
+name_block = "Bedrock"
+Heath = 1e+08
+
+[node name="Item" type="Node2D" parent="."]
+
+[node name="@Seed@5222" type="Area2D" parent="Item" instance=ExtResource( 5 )]
+process_mode = 3
+physics_interpolation_mode = 2
+process_priority = 1
+position = Vector2( 1148.4, 1608.35 )
+script = ExtResource( 4 )
+count = 1
+seed_name = "Dirt"
+type = 2
+
+[node name="@Seed@5241" type="Area2D" parent="Item" instance=ExtResource( 5 )]
+process_mode = 3
+physics_interpolation_mode = 2
+process_priority = 1
+position = Vector2( 1110.97, 1640.94 )
+script = ExtResource( 4 )
+count = 1
+seed_name = "Dirt"
+type = 2
+
+[node name="@Seed@5243" type="Area2D" parent="Item" instance=ExtResource( 5 )]
+process_mode = 3
+physics_interpolation_mode = 2
+process_priority = 1
+position = Vector2( 1156.2, 1633.63 )
+script = ExtResource( 4 )
+count = 1
+seed_name = "Dirt"
+type = 2
+
+[node name="@Seed@5253" type="Area2D" parent="Item" instance=ExtResource( 5 )]
+process_mode = 3
+physics_interpolation_mode = 2
+process_priority = 1
+position = Vector2( 982.289, 1568.96 )
+script = ExtResource( 4 )
+count = 1
+seed_name = "Dirt"
+type = 2
+
+[node name="@Seed@5257" type="Area2D" parent="Item" instance=ExtResource( 5 )]
+process_mode = 3
+physics_interpolation_mode = 2
+process_priority = 1
+position = Vector2( 990.425, 1632.21 )
+script = ExtResource( 4 )
+count = 1
+seed_name = "Dirt"
+type = 2
+
+[node name="@Seed@5259" type="Area2D" parent="Item" instance=ExtResource( 5 )]
+process_mode = 3
+physics_interpolation_mode = 2
+process_priority = 1
+position = Vector2( 984.837, 1639.84 )
+script = ExtResource( 4 )
+count = 1
+seed_name = "Dirt"
+type = 2
+
+[node name="@Seed@5260" type="Area2D" parent="Item" instance=ExtResource( 5 )]
+process_mode = 3
+physics_interpolation_mode = 2
+process_priority = 1
+position = Vector2( 984.41, 1667.92 )
+script = ExtResource( 4 )
+count = 1
+seed_name = "Dirt"
+type = 2
+
+[node name="@Seed@5268" type="Area2D" parent="Item" instance=ExtResource( 5 )]
+process_mode = 3
+physics_interpolation_mode = 2
+process_priority = 1
+position = Vector2( 1315.02, 1702.27 )
+script = ExtResource( 4 )
+count = 1
+seed_name = "Dirt"
+type = 1
+
+[node name="TileMap" type="TileMap" parent="."]
+cell_size = Vector2( 32, 32 )
+cell_custom_transform = Transform2D( 32, 0, 0, 32, 0, 0 )
+cell_tile_origin = 2
+collision_use_parent = true
+format = 1
+
+[connection signal="body_entered" from="Item/@Seed@5222" to="Item/@Seed@5222" method="_on_Seed_body_entered"]
+[connection signal="body_entered" from="Item/@Seed@5241" to="Item/@Seed@5241" method="_on_Seed_body_entered"]
+[connection signal="body_entered" from="Item/@Seed@5243" to="Item/@Seed@5243" method="_on_Seed_body_entered"]
+[connection signal="body_entered" from="Item/@Seed@5253" to="Item/@Seed@5253" method="_on_Seed_body_entered"]
+[connection signal="body_entered" from="Item/@Seed@5257" to="Item/@Seed@5257" method="_on_Seed_body_entered"]
+[connection signal="body_entered" from="Item/@Seed@5259" to="Item/@Seed@5259" method="_on_Seed_body_entered"]
+[connection signal="body_entered" from="Item/@Seed@5260" to="Item/@Seed@5260" method="_on_Seed_body_entered"]
+[connection signal="body_entered" from="Item/@Seed@5268" to="Item/@Seed@5268" method="_on_Seed_body_entered"]

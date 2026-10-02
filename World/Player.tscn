@@ -1,0 +1,249 @@
+[gd_scene format=3 uid="uid://dvpbmoyaieqrb"]
+
+[ext_resource type="Texture2D" uid="uid://dufys0frdiwnd" path="res://Assets/Character/Character_legs.png" id="1"]
+[ext_resource type="Script" uid="uid://8lqauo4i0utd" path="res://World/Player.gd" id="2"]
+[ext_resource type="Shader" uid="uid://dx85qn30ag0lf" path="res://Assets/Shaders/Tree.gdshader" id="2_ln20m"]
+[ext_resource type="Texture2D" uid="uid://dm7rt8rf1mhwt" path="res://Assets/Block/Tree_Block.png" id="2_uxv41"]
+[ext_resource type="FontFile" uid="uid://bdjfp2fmu4ej7" path="res://Assets/dpcomic.ttf" id="3"]
+[ext_resource type="Texture2D" uid="uid://2rd3xsmy2lkd" path="res://Assets/Flags/Indonesian_Flag.png" id="4"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_n4y2n"]
+shader = ExtResource("2_ln20m")
+shader_parameter/offset = Vector2(2, 1)
+shader_parameter/modulate = Color(0, 0, 0, 0.39215687)
+
+[sub_resource type="Animation" id="5"]
+resource_name = "Break"
+
+[sub_resource type="Animation" id="3"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="4"]
+resource_name = "Walk"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_m5k62"]
+_data = {
+&"Break": SubResource("5"),
+&"RESET": SubResource("3"),
+&"Walk": SubResource("4")
+}
+
+[sub_resource type="Animation" id="6"]
+resource_name = "Break"
+length = 0.4
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ArmLeft:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-6.4, -4.8)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("ArmLeft:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, -71.7704]
+}
+
+[sub_resource type="Animation" id="7"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ArmLeft:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-6.4, -4.8)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("ArmLeft:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_uxv41"]
+_data = {
+&"Break": SubResource("6"),
+&"RESET": SubResource("7")
+}
+
+[sub_resource type="RectangleShape2D" id="1"]
+size = Vector2(26, 26)
+
+[sub_resource type="SeparationRayShape2D" id="8"]
+length = 0.5
+
+[sub_resource type="FontFile" id="9"]
+fallbacks = Array[Font]([ExtResource("3"), ExtResource("3"), ExtResource("3")])
+subpixel_positioning = 0
+msdf_pixel_range = 14
+msdf_size = 128
+cache/0/variation_coordinates = {}
+cache/0/face_index = 0
+cache/0/embolden = 0.0
+cache/0/transform = Transform2D(1, 0, 0, 1, 0, 0)
+cache/0/spacing_top = 0
+cache/0/spacing_bottom = 0
+cache/0/spacing_space = 0
+cache/0/spacing_glyph = 0
+cache/0/baseline_offset = 0.0
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+
+[node name="Player" type="CharacterBody2D" unique_id=322842181]
+script = ExtResource("2")
+
+[node name="Body" type="Sprite2D" parent="." unique_id=1127657599]
+texture_filter = 1
+material = SubResource("ShaderMaterial_n4y2n")
+texture = ExtResource("2_uxv41")
+
+[node name="Head" type="Sprite2D" parent="Body" unique_id=27831057]
+
+[node name="LegsLeft" type="Sprite2D" parent="Body" unique_id=1762155395]
+position = Vector2(-3, 8)
+texture = ExtResource("1")
+offset = Vector2(3.2, -8)
+
+[node name="LegsRight" type="Sprite2D" parent="Body" unique_id=1671549232]
+position = Vector2(3.2, 8)
+texture = ExtResource("1")
+offset = Vector2(3.2, -8)
+
+[node name="ArmLeft" type="Sprite2D" parent="Body" unique_id=1911293785]
+position = Vector2(-6.4, -4.8)
+texture = ExtResource("1")
+offset = Vector2(3.2, -8)
+
+[node name="ArmRight" type="Sprite2D" parent="Body" unique_id=1726785189]
+z_index = -1
+position = Vector2(6, -5)
+texture = ExtResource("1")
+offset = Vector2(3.2, -8)
+
+[node name="PlayerAnim" type="AnimationPlayer" parent="Body" unique_id=1001107553]
+libraries/ = SubResource("AnimationLibrary_m5k62")
+
+[node name="Arm" type="AnimationPlayer" parent="Body" unique_id=1707996694]
+libraries/ = SubResource("AnimationLibrary_uxv41")
+
+[node name="Marker2D" type="Marker2D" parent="Body" unique_id=566103103]
+position = Vector2(25, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=150212881]
+shape = SubResource("1")
+
+[node name="Name" type="Control" parent="." unique_id=255445287]
+layout_mode = 3
+anchors_preset = 0
+offset_top = -3.0
+offset_right = 40.0
+offset_bottom = 37.0
+
+[node name="Flags" type="Sprite2D" parent="Name" unique_id=1779300120]
+texture_filter = 1
+position = Vector2(-26, -36)
+texture = ExtResource("4")
+
+[node name="Legs" type="Area2D" parent="Name" unique_id=1450890876]
+position = Vector2(2.09808e-05, 19)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Name/Legs" unique_id=492514224]
+shape = SubResource("8")
+
+[node name="Label" type="Label" parent="Name" unique_id=1545802392]
+texture_filter = 1
+layout_mode = 0
+offset_left = -16.0
+offset_top = -40.0
+offset_right = 27.0
+offset_bottom = -24.0
+scale = Vector2(0.6, 0.6)
+theme_override_fonts/font = SubResource("9")
+text = "FrendyXu"
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1997968380]
+zoom = Vector2(0.5, 0.5)
+limit_left = -32
+limit_top = -32
+limit_right = 3168
+limit_bottom = 3168
+limit_smoothed = true
+position_smoothing_enabled = true
+editor_draw_limits = true
+
+[node name="Node2D" type="Node2D" parent="." unique_id=708090296]

@@ -1,0 +1,119 @@
+[gd_scene format=3 uid="uid://dyxvhsnmlalqh"]
+
+[ext_resource type="Script" uid="uid://g430wscomw24" path="res://World/Item_Active.gd" id="1"]
+[ext_resource type="Script" uid="uid://cayskhfj80kd7" path="res://World/Beta.gd" id="2"]
+
+[sub_resource type="RectangleShape2D" id="1"]
+size = Vector2(128, 128)
+
+[node name="Gui" type="CanvasLayer" unique_id=1212971368]
+
+[node name="Control_game" type="Control" parent="." unique_id=1240107347]
+layout_mode = 3
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -130.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Right" type="TouchScreenButton" parent="Control_game" unique_id=427956043]
+position = Vector2(240, 66)
+shape = SubResource("1")
+shape_centered = false
+action = "Right"
+
+[node name="Left" type="TouchScreenButton" parent="Control_game" unique_id=1139915097]
+position = Vector2(64, 66)
+shape = SubResource("1")
+shape_centered = false
+action = "Left"
+
+[node name="Jump" type="TouchScreenButton" parent="Control_game" unique_id=1268958373]
+position = Vector2(960, 66)
+shape = SubResource("1")
+shape_centered = false
+action = "Jump"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Control_game" unique_id=1558881740]
+layout_mode = 0
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -192.0
+offset_top = -23.0
+offset_right = 256.0
+offset_bottom = 67.0
+theme_override_constants/separation = 20
+script = ExtResource("1")
+
+[node name="Punch_Button" type="Button" parent="Control_game/HBoxContainer" unique_id=469365231]
+layout_mode = 2
+text = "Punch"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Control_game/HBoxContainer" unique_id=509876300]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+follow_focus = true
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Control_game/HBoxContainer/ScrollContainer" unique_id=1103486028]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/separation = 20
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control_game/HBoxContainer" unique_id=1042848081]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Drop_Button" type="Button" parent="Control_game/HBoxContainer/VBoxContainer" unique_id=810048349]
+layout_mode = 2
+size_flags_vertical = 3
+text = "Drop"
+
+[node name="Info_Button" type="Button" parent="Control_game/HBoxContainer/VBoxContainer" unique_id=1085790623]
+layout_mode = 2
+size_flags_vertical = 3
+text = "Info"
+
+[node name="Beta" type="Control" parent="." unique_id=1432165002]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 128.0
+offset_bottom = 136.0
+script = ExtResource("2")
+
+[node name="Label" type="Label" parent="Beta" unique_id=291795628]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 14.0
+
+[node name="SpinBox" type="VSlider" parent="Beta" unique_id=1541230270]
+layout_mode = 0
+offset_left = -1.0
+offset_top = 117.0
+offset_right = 23.0
+offset_bottom = 258.0
+min_value = 0.4
+max_value = 5.0
+step = 0.1
+value = 0.4
+rounded = true
+tick_count = 1
+ticks_on_borders = true
+
+[node name="Test_button" type="Button" parent="Beta" unique_id=303761587]
+layout_mode = 0
+offset_top = 56.0
+offset_right = 72.0
+offset_bottom = 96.0
+text = "Clear World"
+
+[connection signal="pressed" from="Control_game/HBoxContainer/Punch_Button" to="Control_game/HBoxContainer" method="_on_Punch_Button_pressed"]
+[connection signal="pressed" from="Control_game/HBoxContainer/VBoxContainer/Drop_Button" to="Control_game/HBoxContainer" method="_on_Drop_Button_pressed"]
+[connection signal="pressed" from="Control_game/HBoxContainer/VBoxContainer/Info_Button" to="Control_game/HBoxContainer" method="_on_Info_Button_pressed"]
+[connection signal="drag_started" from="Beta/SpinBox" to="Beta" method="_on_SpinBox_drag_started"]
+[connection signal="pressed" from="Beta/Test_button" to="Beta" method="_on_Test_button_pressed"]

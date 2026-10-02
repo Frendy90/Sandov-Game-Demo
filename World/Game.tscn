@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://d5gok2qils3x"]
+
+[ext_resource type="Script" uid="uid://yr2vw4ab4ndd" path="res://World/Game.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://dstc4iche4687" path="res://World/Placement_Area.tscn" id="2"]
+
+[sub_resource type="TileSet" id="TileSet_kkrxl"]
+tile_size = Vector2i(32, 32)
+
+[node name="Game" type="Node" unique_id=443269558]
+script = ExtResource("1")
+
+[node name="Background" type="Node2D" parent="." unique_id=974960161]
+z_index = -10
+
+[node name="Parallax2D" type="Parallax2D" parent="Background" unique_id=234797839]
+scroll_scale = Vector2(0.2, 0.2)
+
+[node name="Bg" type="Sprite2D" parent="Background/Parallax2D" unique_id=1323988051]
+position = Vector2(920, 464)
+scale = Vector2(2.4535408, 2.4896374)
+
+[node name="Tile" type="Node2D" parent="." unique_id=740515421]
+
+[node name="Item" type="Node2D" parent="." unique_id=1534675810]
+
+[node name="TileMap" type="TileMap" parent="." unique_id=1984847528]
+tile_set = SubResource("TileSet_kkrxl")
+collision_animatable = true
+format = 2
+
+[node name="Placement_Area" parent="." unique_id=1722631435 instance=ExtResource("2")]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1964731665]
+position = Vector2(0, 256)
