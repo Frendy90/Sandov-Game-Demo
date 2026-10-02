@@ -1,0 +1,883 @@
+{
+	"Block" : {
+		"Dirt" : {
+			"Id" : 1,
+			"Breakhit" : 5,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 2,
+			"OwnedScript" : false,
+			"TypeBlock" : "Block",
+			"value" : 0,
+			"Layer_type" : 1,
+			"Seeddrop" : true
+		},
+		"Grass_Dirt" : {
+			"Id" : 2,
+			"Breakhit" : 5,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 2,
+			"OwnedScript" : false,
+			"TypeBlock" : "Block",
+			"value" : 0,
+			"Layer_type" : 1,
+			"Seeddrop" : true
+		},
+		"Bedrock" : {
+			"Id" : 0,
+			"Breakhit" : 99999999,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 1,
+			"OwnedScript" : false,
+			"TypeBlock" : "Block",
+			"value" : 0,
+			"Layer_type" : 1,
+			"Seeddrop" : true
+		},
+		"Lava" : {
+			"Id" : 3,
+			"Breakhit" : 6,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"OwnedScript" : false,
+			"TypeBlock" : "Block",
+			"value" : 0,
+			"Layer_type" : 1,
+			"Seeddrop" : true
+		},
+		"Rock" : {
+			"Id" : 4,
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"OwnedScript" : false,
+			"TypeBlock" : "Block",
+			"value" : 0,
+			"Layer_type" : 1,
+			"Seeddrop" : true
+		},
+	   "Blue" : {
+			"Id" : 10,
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"OwnedScript" : false,
+			"TypeBlock" : "Block",
+			"value" : 1000,
+			"Layer_type" : 1,
+			"Seeddrop" : true
+		},
+		"Red" : {
+			"Id" : 10,
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"OwnedScript" : false,
+			"TypeBlock" : "Block",
+			"value" : 0,
+			"Layer_type" : 1,
+			"Seeddrop" : true
+		},
+		"Grass" : {
+			"Id" : 10,
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"OwnedScript" : false,
+			"TypeBlock" : "Block",
+			"value" : 0,
+			"Layer_type" : 2,
+			"Seeddrop" : true
+		},
+		"White" : {
+			"Id" : 10,
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"OwnedScript" : false,
+			"TypeBlock" : "Block",
+			"value" : 1000,
+			"Layer_type" : 1,
+			"Seeddrop" : true
+		},
+		"Blue_Lock" : {
+			"Id" : 0,
+			"Breakhit" : 20,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"OwnedScript" : false,
+			"TypeBlock" : "Block",
+			"value" : 0,
+			"Layer_type" : 1,
+			"Seeddrop" : false
+		},
+		"Purple" : {
+			"Id" : 10,
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"OwnedScript" : false,
+			"TypeBlock" : "Block",
+			"value" : 0,
+			"Layer_type" : 1,
+			"Seeddrop" : true
+		},
+		"Black" : {
+			"Id" : 10,
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"OwnedScript" : false,
+			"TypeBlock" : "Block",
+			"value" : 0,
+			"Layer_type" : 1,
+			"Seeddrop" : true
+		},
+		"Grey" : {
+			"Id" : 10,
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"OwnedScript" : false,
+			"TypeBlock" : "Block",
+			"value" : 0,
+			"Layer_type" : 1,
+			"Seeddrop" : true
+		},
+		"Green" : {
+			"Id" : 10,
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"OwnedScript" : false,
+			"TypeBlock" : "Block",
+			"value" : 0,
+			"Layer_type" : 1,
+			"Seeddrop" : true
+		},
+		"Yellow" : {
+			"Id" : 10,
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"OwnedScript" : false,
+			"TypeBlock" : "Block",
+			"value" : 0,
+			"Layer_type" : 1,
+			"Seeddrop" : true
+		},
+		"Brown" : {
+			"Id" : 10,
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"OwnedScript" : false,
+			"TypeBlock" : "Block",
+			"value" : 0,
+			"Layer_type" : 1,
+			"Seeddrop" : true
+		},
+		"Orange" : {
+			"Id" : 10,
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"OwnedScript" : false,
+			"TypeBlock" : "Block",
+			"value" : 0,
+			"Layer_type" : 1,
+			"Seeddrop" : true
+		},
+		"Pink" : {
+			"Id" : 10,
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"OwnedScript" : false,
+			"TypeBlock" : "Block",
+			"value" : 0,
+			"Layer_type" : 1,
+			"Seeddrop" : true
+		},
+		"Hegde" : {
+			"Id" : 15,
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"OwnedScript" : false,
+			"TypeBlock" : "Block",
+			"value" : 0,
+			"Layer_type" : 1,
+			"Seeddrop" : true
+		},
+		"Block_Create" : {
+			"Id" : 0,
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"OwnedScript" : true,
+			"TypeBlock" : "Create",
+			"value" : 500,
+			"Layer_type" : 2,
+			"Seeddrop" : false
+		},
+		"Weather_Sun" : {
+			"Id" : 0,
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"OwnedScript" : true,
+			"TypeBlock" : "Weather",
+			"Etc" : {
+				"Background" : "res://Assets/Background/Ikigai 努力.jpeg"
+			},
+			"value" : 1,
+			"Layer_type" : 2,
+			"Seeddrop" : false
+		}
+	},
+	"Seed" : {
+		"Dirt" : {
+			"Dirt_Block" : {
+				"Id" : "1",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			},
+			"Dirt_Wallpaper" : {
+				"Id" : "1",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			}
+		},
+		"Grass_Dirt" : {
+			"Grass_Dirt_Block" : {
+				"Id" : "2",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			},
+			"Grass_Dirt_Wallpaper" : {
+				"Id" : "2",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			}
+		},
+		"Bedrock" : {
+			"Bedrock_Block" : {
+				"Id" : "3",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			}
+		},
+		"Lava" : {
+			"Lava_Block" : {
+				"Id" : "4",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			},
+			"Lava_Wallpaper" : {
+				"Id" : "4",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			}
+		},
+		"Rock" : {
+			"Rock_Block" : {
+				"Id" : "5",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			},
+			"Rock_Wallpaper" : {
+				"Id" : "5",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			}
+		},
+		"Blue" : {
+			"Blue_Block" : {
+				"Id" : "6",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			},
+			"Blue_Wallpaper" : {
+				"Id" : "6",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			}
+		},
+		"Red" : {
+			"Red_Block" : {
+				"Id" : "7",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			},
+			"Red_Wallpaper" : {
+				"Id" : "7",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			}
+		},
+		"Grass" : {
+			"Grass_Block" : {
+				"Id" : "8",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			},
+			"Grass_Wallpaper" : {
+				"Id" : "8",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			}
+		},
+		"White" : {
+			"White_Block" : {
+				"Id" : "9",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			},
+			"White_Wallpaper" : {
+				"Id" : "9",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			}
+		},
+		"Blue_Lock" : {
+			"Blue_Lock_Block" : {
+				"Id" : "10",
+				"Breakhit" : 10,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			}
+		},
+		"Purple" : {
+			"Purple_Block" : {
+				"Id" : "11",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			},
+			"Purple_Wallpaper" : {
+				"Id" : "11",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			}
+		},
+		"Black" : {
+			"Black_Block" : {
+				"Id" : "11",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			},
+			"Black_Wallpaper" : {
+				"Id" : "11",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			}
+		},
+		"Grey" : {
+			"Grey_Block" : {
+				"Id" : "11",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			},
+			"Grey_Wallpaper" : {
+				"Id" : "11",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			}
+		},
+		"Green" : {
+			"Green_Block" : {
+				"Id" : "11",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			},
+			"Green_Wallpaper" : {
+				"Id" : "11",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			}
+		},
+		"Yellow" : {
+			"Yellow_Block" : {
+				"Id" : "11",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			},
+			"Yellow_Wallpaper" : {
+				"Id" : "11",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			}
+		},
+		"Brown" : {
+			"Brown_Block" : {
+				"Id" : "11",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			},
+			"Brown_Wallpaper" : {
+				"Id" : "11",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			}
+		},
+		"Orange" : {
+			"Orange_Block" : {
+				"Id" : "11",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			},
+			"Orange_Wallpaper" : {
+				"Id" : "11",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			}
+			
+		},
+		"Pink" : {
+			"Pink_Block" : {
+				"Id" : "11",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			},
+			"Pink_Wallpaper" : {
+				"Id" : "11",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			}
+		},
+		"Hegde" : {
+			"Hegde_Block" : {
+				"Id" : "11",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			},
+			"Hegde_Wallpaper" : {
+				"Id" : "11",
+				"Breakhit" : 5,
+				"Description" : "pass",
+				"Information" : "pass",
+				"Gemsdrop" : 2,
+				"Rarity" : 1,
+				"value" : 0,
+				"Time" : 10
+			}
+		}
+	},
+	"Wallpaper" : {
+		"Dirt" : {
+			"Id" : "1",
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 2,  
+			"Rarity" : 1,
+			"value" : 0,
+			"Layer_type" : 3,
+			"Seeddrop" : true
+		},
+		"Grass_Dirt" : {
+			"Id" : "2",
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 2,
+			"Rarity" : 1,
+			"value" : 0,
+			"Layer_type" : 3,
+			"Seeddrop" : true
+		},
+		"Bedrock" : {
+			"Id" : "3",
+			"Breakhit" : 99999999,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 1,
+			"Rarity" : 1,
+			"value" : 0,
+			"Layer_type" : 3,
+			"Seeddrop" : true
+		},
+		"Lava" : {
+			"Id" : "4",
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"Rarity" : 2,
+			"value" : 0,
+			"Layer_type" : 3,
+			"Seeddrop" : true
+		},
+		"Rock" : {
+			"Id" : "5",
+			"Breakhit" : 10,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"Rarity" : 2,
+			"value" : 0,
+			"Layer_type" : 3,
+			"Seeddrop" : true
+		},
+	   "Blue" : {
+			"Id" : "6",
+			"Breakhit" : 10,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"Rarity" : 2,
+			"value" : 1000,
+			"Layer_type" : 3,
+			"Seeddrop" : true
+		},
+		"Red" : {
+			"Id" : "7",
+			"Breakhit" : 10,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"Rarity" : 2,
+			"value" : 0,
+			"Layer_type" : 3,
+			"Seeddrop" : true
+		},
+		"Grass" : {
+			"Id" : "8",
+			"Breakhit" : 10,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"Rarity" : 2,
+			"value" : 0,
+			"Layer_type" : 3,
+			"Seeddrop" : true
+		},
+		"White" : {
+			"Id" : "9",
+			"Breakhit" : 10,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"Rarity" : 2,
+			"value" : 1000,
+			"Layer_type" : 3,
+			"Seeddrop" : true
+		},
+		"Purple" : {
+			"Id" : "11",
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"Rarity" : 2,
+			"value" : 0,
+			"Layer_type" : 3,
+			"Seeddrop" : true
+		},
+		"Black" : {
+			"Id" : "11",
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"Rarity" : 2,
+			"value" : 0,
+			"Layer_type" : 3,
+			"Seeddrop" : true
+		},
+		"Grey" : {
+			"Id" : "11",
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"Rarity" : 2,
+			"value" : 0,
+			"Layer_type" : 3,
+			"Seeddrop" : true
+		},
+		"Green" : {
+			"Id" : "11",
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"Rarity" : 2,
+			"value" : 0,
+			"Layer_type" : 3,
+			"Seeddrop" : true
+		},
+		"Yellow" : {
+			"Id" : "11",
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"Rarity" : 2,
+			"value" : 0,
+			"Layer_type" : 3,
+			"Seeddrop" : true
+		},
+		"Brown" : {
+			"Id" : "11",
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"Rarity" : 2,
+			"value" : 0,
+			"Layer_type" : 3,
+			"Seeddrop" : true
+		},
+		"Orange" : {
+			"Id" : "11",
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"Rarity" : 2,
+			"value" : 0,
+			"Layer_type" : 3,
+			"Seeddrop" : true
+		},
+		"Pink" : {
+			"Id" : "11",
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"Rarity" : 2,
+			"value" : 0,
+			"Layer_type" : 3,
+			"Seeddrop" : true
+		},
+		"Hegde" : {
+			"Id" : "11",
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"Rarity" : 2,
+			"value" : 0,
+			"Layer_type" : 3,
+			"Seeddrop" : true
+		},
+		"Block_Create" : {
+			"Id" : 0,
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"OwnedScript" : true,
+			"value" : 0,
+			"Layer_type" : 2,
+			"Seeddrop" : false
+		},
+		"Weather_Sun" : {
+			"Id" : 0,
+			"Breakhit" : 8,
+			"Description" : "pass",
+			"Information" : "pass",
+			"Gemsdrop" : 5,
+			"OwnedScript" : true,
+			"TypeBlock" : "Weather",
+			"value" : 0,
+			"Layer_type" : 2,
+			"Seeddrop" : false
+		}
+	}
+}

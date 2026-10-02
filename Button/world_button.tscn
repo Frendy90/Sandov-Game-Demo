@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://dxkr2u0s1j2t8"]
+
+[ext_resource type="Texture2D" uid="uid://vulswdvhyy0j" path="res://Assets/Effect/World_Button.png" id="1_fo6r4"]
+[ext_resource type="Texture2D" uid="uid://boskm6xr150wb" path="res://Assets/Effect/World_Button_2.png" id="2_mkcp1"]
+[ext_resource type="Script" uid="uid://c0jexkprcnbg5" path="res://Button/world_button.gd" id="3_mkcp1"]
+
+[node name="World_Button" type="TextureButton" unique_id=752914343]
+texture_filter = 1
+anchors_preset = -1
+anchor_right = 0.065000005
+anchor_bottom = 0.07
+offset_right = -88.70001
+offset_bottom = -24.400002
+texture_normal = ExtResource("1_fo6r4")
+texture_pressed = ExtResource("2_mkcp1")
+stretch_mode = 0
+script = ExtResource("3_mkcp1")
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="." unique_id=1729905077]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "adads"
+horizontal_alignment = 1
+vertical_alignment = 1

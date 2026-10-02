@@ -1,0 +1,101 @@
+[gd_scene format=3 uid="uid://c1631ak8ctapw"]
+
+[ext_resource type="Shader" uid="uid://dx85qn30ag0lf" path="res://Assets/Shaders/Tree.gdshader" id="1_21fkp"]
+[ext_resource type="Script" uid="uid://c7dkcseib2y7m" path="res://Block/Block.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://bldr6phcx6ik5" path="res://Assets/Effect/Break_Effect.png" id="3"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ooua1"]
+shader = ExtResource("1_21fkp")
+shader_parameter/offset = Vector2(2, 1)
+shader_parameter/modulate = Color(0, 0, 0, 0.39215687)
+
+[sub_resource type="RectangleShape2D" id="2"]
+size = Vector2(28, 28)
+
+[sub_resource type="RectangleShape2D" id="1"]
+size = Vector2(32, 32)
+
+[sub_resource type="AtlasTexture" id="8"]
+atlas = ExtResource("3")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="9"]
+atlas = ExtResource("3")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="10"]
+atlas = ExtResource("3")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="11"]
+atlas = ExtResource("3")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("8")
+}],
+"loop": 1,
+"name": &"1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("9")
+}],
+"loop": 1,
+"name": &"2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("10")
+}],
+"loop": 1,
+"name": &"3",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("11")
+}],
+"loop": 1,
+"name": &"4",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": 1,
+"name": &"none",
+"speed": 5.0
+}]
+
+[node name="Block" type="StaticBody2D" unique_id=1769805932 groups=["Block"]]
+collision_layer = 8
+collision_mask = 8
+script = ExtResource("2")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=27372596]
+texture_filter = 1
+material = SubResource("ShaderMaterial_ooua1")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1799778950]
+collision_layer = 3
+collision_mask = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=823136171]
+shape = SubResource("2")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="." unique_id=1961407246]
+shape = SubResource("1")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=528053589]
+texture_filter = 1
+sprite_frames = SubResource("7")
+animation = &"none"
+
+[node name="Timer" type="Timer" parent="." unique_id=156483343]
+
+[connection signal="input_event" from="Area2D" to="." method="_on_Area2D_input_event"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

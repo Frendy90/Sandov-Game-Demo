@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://bhjtmin658mf0"]
+
+[ext_resource type="Script" uid="uid://balp1oct657c4" path="res://Gui&Ui layers/main_shop.gd" id="1_f0ys3"]
+
+[node name="Main_shop" type="Control" unique_id=841841068]
+layout_mode = 3
+anchor_left = 0.084848486
+anchor_top = 0.17391305
+anchor_right = 0.7210938
+anchor_bottom = 1.0
+offset_left = 131.39394
+offset_top = -29.217392
+offset_right = 131.39392
+offset_bottom = -29.217407
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("1_f0ys3")
+metadata/_edit_use_anchors_ = true
+
+[node name="TabContainer" type="TabContainer" parent="." unique_id=1420302311]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+current_tab = 0
+
+[node name="Pack" type="TabBar" parent="TabContainer" unique_id=439061116]
+layout_mode = 2
+metadata/_tab_index = 0
+
+[node name="ScrollContainer" type="ScrollContainer" parent="TabContainer/Pack" unique_id=359006976]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="GridContainer" type="GridContainer" parent="TabContainer/Pack/ScrollContainer" unique_id=1393783269]
+layout_mode = 2
+columns = 2

@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://drxwxxa7rj3vp"]
+
+[ext_resource type="Script" uid="uid://deuhni637afvm" path="res://Button/Backpack_button.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://bgikea0ulfxrb" path="res://Assets/Effect/Bg_Block.png" id="2"]
+
+[node name="Backpack_button" type="TextureButton" unique_id=1946407273]
+texture_filter = 1
+anchors_preset = -1
+anchor_right = 0.040000003
+anchor_bottom = 0.087000005
+offset_right = -63.200005
+offset_bottom = -64.04
+size_flags_stretch_ratio = 7.11
+focus_mode = 0
+texture_normal = ExtResource("2")
+stretch_mode = 0
+script = ExtResource("1")
+metadata/_edit_use_anchors_ = true
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=742369099]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.1
+anchor_right = 0.90000004
+anchor_bottom = 0.90000004
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="." unique_id=612620484]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+vertical_alignment = 2

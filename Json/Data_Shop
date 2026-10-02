@@ -1,0 +1,10 @@
+{
+    "Event" : {
+
+    },
+    "Normal" : {
+        "Pack_name" : "Gacha Block Sir",
+        "Pack_Item" : [{"Block_Create" : {"Value":10}}],
+        "Pack_Price" : 1000
+    }
+}

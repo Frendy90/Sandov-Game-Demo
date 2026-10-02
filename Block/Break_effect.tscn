@@ -1,0 +1,47 @@
+[gd_scene format=3 uid="uid://dym5oo30lwgx4"]
+
+[ext_resource type="Texture2D" uid="uid://d3fbldsy2rajg" path="res://Assets/Effect/Punch_Effect.png" id="1"]
+[ext_resource type="Script" uid="uid://ckqynn2k6scq" path="res://Block/Break_effect.gd" id="2"]
+
+[sub_resource type="AtlasTexture" id="6"]
+atlas = ExtResource("1")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="7"]
+atlas = ExtResource("1")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="8"]
+atlas = ExtResource("1")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="9"]
+atlas = ExtResource("1")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("6")
+}, {
+"duration": 1.0,
+"texture": SubResource("7")
+}, {
+"duration": 1.0,
+"texture": SubResource("8")
+}, {
+"duration": 1.0,
+"texture": SubResource("9")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Break_effect" type="AnimatedSprite2D" unique_id=1192059250]
+texture_filter = 1
+scale = Vector2(1.4, 1.4)
+sprite_frames = SubResource("5")
+speed_scale = 2.0
+script = ExtResource("2")

@@ -1,0 +1,207 @@
+[gd_scene format=3 uid="uid://ykwr4x8bq2gc"]
+
+[ext_resource type="Texture2D" uid="uid://dm7rt8rf1mhwt" path="res://Assets/Block/Tree_Block.png" id="1"]
+[ext_resource type="Script" uid="uid://cgyr7prjrbxst" path="res://Block/Tree.gd" id="2"]
+[ext_resource type="Shader" uid="uid://dx85qn30ag0lf" path="res://Assets/Shaders/Tree.gdshader" id="2_1af88"]
+[ext_resource type="FontFile" uid="uid://bdjfp2fmu4ej7" path="res://Assets/dpcomic.ttf" id="3"]
+[ext_resource type="Texture2D" uid="uid://vulswdvhyy0j" path="res://Assets/Effect/World_Button.png" id="5_lrf3g"]
+
+[sub_resource type="RectangleShape2D" id="2"]
+size = Vector2(28, 28)
+
+[sub_resource type="RectangleShape2D" id="1"]
+size = Vector2(32, 32)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_n4y2n"]
+shader = ExtResource("2_1af88")
+shader_parameter/offset = Vector2(2, 1)
+shader_parameter/modulate = Color(0, 0, 0, 0.39215687)
+
+[sub_resource type="FontFile" id="3"]
+fallbacks = Array[Font]([ExtResource("3"), ExtResource("3")])
+subpixel_positioning = 0
+msdf_pixel_range = 14
+msdf_size = 128
+cache/0/variation_coordinates = {}
+cache/0/face_index = 0
+cache/0/embolden = 0.0
+cache/0/transform = Transform2D(1, 0, 0, 1, 0, 0)
+cache/0/spacing_top = 0
+cache/0/spacing_bottom = 0
+cache/0/spacing_space = 0
+cache/0/spacing_glyph = 0
+cache/0/baseline_offset = 0.0
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/10/0/ascent = 0.0
+cache/0/10/0/descent = 0.0
+cache/0/10/0/underline_position = 0.0
+cache/0/10/0/underline_thickness = 0.0
+cache/0/10/0/scale = 1.0
+cache/0/8/0/ascent = 0.0
+cache/0/8/0/descent = 0.0
+cache/0/8/0/underline_position = 0.0
+cache/0/8/0/underline_thickness = 0.0
+cache/0/8/0/scale = 1.0
+cache/0/12/0/ascent = 0.0
+cache/0/12/0/descent = 0.0
+cache/0/12/0/underline_position = 0.0
+cache/0/12/0/underline_thickness = 0.0
+cache/0/12/0/scale = 1.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ooua1"]
+texture = ExtResource("5_lrf3g")
+region_rect = Rect2(0, 0, 128, 64)
+modulate_color = Color(1, 1, 1, 0.7254902)
+
+[sub_resource type="SeparationRayShape2D" id="4"]
+length = 15.0
+
+[sub_resource type="Animation" id="Animation_1af88"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Sprite2D:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_lrf3g"]
+resource_name = "grow"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Sprite2D:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0.2, 0.2), Vector2(1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_517ma"]
+_data = {
+&"RESET": SubResource("Animation_1af88"),
+&"grow": SubResource("Animation_lrf3g")
+}
+
+[node name="Tree" type="StaticBody2D" unique_id=1084697786]
+collision_layer = 2
+collision_mask = 3
+script = ExtResource("2")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=269389371]
+collision_layer = 3
+collision_mask = 3
+metadata/_edit_lock_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=2069511059]
+shape = SubResource("2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=768638934]
+shape = SubResource("1")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2041521370]
+texture_filter = 1
+material = SubResource("ShaderMaterial_n4y2n")
+texture = ExtResource("1")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D" unique_id=387719625]
+texture_filter = 1
+scale = Vector2(0.5, 0.5)
+
+[node name="Label" type="Label" parent="." unique_id=534068033]
+texture_filter = 1
+offset_left = -37.0
+offset_top = -43.0
+offset_right = 38.0
+offset_bottom = -11.0
+size_flags_horizontal = 4
+theme_override_fonts/font = SubResource("3")
+theme_override_font_sizes/font_size = 12
+theme_override_styles/normal = SubResource("StyleBoxTexture_ooua1")
+text = "11"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Timer" type="Timer" parent="." unique_id=1777862722]
+one_shot = true
+
+[node name="Legs" type="Area2D" parent="." unique_id=691608466]
+z_index = 1
+collision_layer = 15
+collision_mask = 15
+metadata/_edit_lock_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Legs" unique_id=1502811804]
+position = Vector2(0, 17)
+shape = SubResource("4")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=947972125]
+libraries/ = SubResource("AnimationLibrary_517ma")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]
+[connection signal="input_event" from="Area2D" to="." method="_on_Area2D_input_event"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
